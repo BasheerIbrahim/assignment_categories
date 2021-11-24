@@ -62,7 +62,7 @@ class Format extends BaseConfig
     ];
 
     /**
-     * A Factory method to return the appropriate formatter for the given mime type.
+     * A Factories method to return the appropriate formatter for the given mime type.
      *
      * @return FormatterInterface
      *

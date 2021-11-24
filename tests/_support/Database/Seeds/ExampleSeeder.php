@@ -10,21 +10,21 @@ class ExampleSeeder extends Seeder
     {
         $factories = [
             [
-                'name'    => 'Test Factory',
+                'name'    => 'Test Factories',
                 'uid'     => 'test001',
                 'class'   => 'Factories\Tests\NewFactory',
                 'icon'    => 'fas fa-puzzle-piece',
                 'summary' => 'Longer sample text for testing',
             ],
             [
-                'name'    => 'Widget Factory',
+                'name'    => 'Widget Factories',
                 'uid'     => 'widget',
                 'class'   => 'Factories\Tests\WidgetPlant',
                 'icon'    => 'fas fa-puzzle-piece',
                 'summary' => 'Create widgets in your factory',
             ],
             [
-                'name'    => 'Evil Factory',
+                'name'    => 'Evil Factories',
                 'uid'     => 'evil-maker',
                 'class'   => 'Factories\Evil\MyFactory',
                 'icon'    => 'fas fa-book-dead',
